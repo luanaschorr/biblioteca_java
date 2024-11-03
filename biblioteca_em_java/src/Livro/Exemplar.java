@@ -6,18 +6,28 @@ public class Exemplar {
 
 	private int id;
 	private String titulo;
-	private LocalDate dataPubliacao;
+	private String dataPubliacao;
+	private String autor;
 	private int estante;
 	private int quantidade;
 	
-	public Exemplar(int id, String titulo, LocalDate dataPublicacao, int estante, int quantidade) {
+	public Exemplar(int id, String titulo, String autor,String dataPublicacao, int estante, int quantidade) {
 		
 		this.id = id;
 		this.titulo = titulo;
+		this.autor = autor;
 		this.dataPubliacao = dataPublicacao;
 		this.estante = estante;
 		this.quantidade = quantidade;
 		
+	}
+
+	public String getAutor() {
+		return autor;
+	}
+
+	public void setAutor(String autor) {
+		this.autor = autor;
 	}
 
 	public int getId() {
@@ -36,11 +46,11 @@ public class Exemplar {
 		this.titulo = titulo;
 	}
 
-	public LocalDate getDataPubliacao() {
+	public String getDataPubliacao() {
 		return dataPubliacao;
 	}
 
-	public void setDataPubliacao(LocalDate dataPubliacao) {
+	public void setDataPubliacao(String dataPubliacao) {
 		this.dataPubliacao = dataPubliacao;
 	}
 
