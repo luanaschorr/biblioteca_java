@@ -1,4 +1,4 @@
-package Livro;
+package livro;
 
 public class Autor {
     private int id;

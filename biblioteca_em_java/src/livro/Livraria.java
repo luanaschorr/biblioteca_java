@@ -1,4 +1,4 @@
-package Livro;
+package livro;
 
 import java.util.ArrayList;
 import java.io.IOException;
@@ -29,7 +29,7 @@ public void cadastroAutro() {
 
 public void cadastro() {
 	Scanner sc = new Scanner(System.in);
-	System.out.println("Digite: \n1-Cadastrar Livro.\n2-Cadastrar Revista.\n3-Cadastrar Artigo.");
+	System.out.println("Digite: \n1-Cadastrar livro.\n2-Cadastrar Revista.\n3-Cadastrar Artigo.");
 	int opcao =  sc.nextInt();
 	 
 	if(opcao == 1) {
