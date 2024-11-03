@@ -1,2 +1,2 @@
 # biblioteca_java
-Um sistema de bibliotreca.
+Um sistema de biblioteca.
